@@ -132,8 +132,8 @@ GEM
     grpc (1.24.0)
       google-protobuf (~> 3.8)
       googleapis-common-protos-types (~> 1.0)
-    httparty (0.17.1)
-      mime-types (~> 3.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
     httpclient (2.8.3)
     i18n (1.6.0)
@@ -154,9 +154,6 @@ GEM
       mimemagic (~> 0.3.2)
     memoist (0.16.0)
     method_source (0.9.2)
-    mime-types (3.3)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2019.0904)
     mimemagic (0.3.10)
       nokogiri (~> 1)
       rake
@@ -291,7 +288,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   google-cloud-firestore
   google-cloud-storage
-  httparty (~> 0.17.0)
+  httparty (~> 0.21.0)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
   pg (~> 0.18.4)
